@@ -1,0 +1,68 @@
+body
+{
+    position: relative;
+    background-color: rgb(115, 0, 192);
+    color: wheat;
+}
+.pierwszaklasa
+{
+    text-align: center;
+    font-size: 25px;
+
+}
+.haha
+{
+    text-align: left;
+    font-size: 0px;
+
+}
+.paseczek
+{
+    text-align: center;
+
+}
+.Gry
+{
+    position:absolute;
+    left:200px;
+    top:90px;
+}
+
+
+
+   
+@media (min-width: 1100px) {
+    .pierwszaklasa {width:1050px;margin:0 auto;}
+    }
+    @media (max-width: 1100px) and (min-width: 1000px) {
+    .pierwszaklasa {width:960px;margin:0 auto;}
+    }
+    @media (max-width: 1000px) and (min-width: 800px) {
+    .pierwszaklasa {width:750px;margin:0 auto;}
+    }
+    @media (max-width: 800px) and (min-width: 500px) {
+    .pierwszaklasa {width:450px;margin:0 auto;}
+    }
+    @media (max-width: 500px) {
+    .pierwszaklasa {width:300px;margin:0 auto;}
+    }   
+
+    
+    @media (max-width: 1000px) {
+    .paseczek {width:1000px;margin:0 auto;}
+    }
+    @media (max-width: 1100px) and (min-width: 1000px) {
+    .paseczek {width:950px;margin:0 auto;}
+    }
+    @media (max-width: 1000px) and (min-width: 800px) {
+    .paseczek {width:750px;margin:0 auto;}
+    }
+    @media (max-width: 800px) and (min-width: 500px) {
+    .paseczek {width:450px;margin:0 auto;}
+    }
+    @media (max-width: 240px) {
+    .paseczek {width:240px;margin:0 auto;}
+    }   
+    @media (max-width: 80px){
+    .paseczek {width: 80px;margin: 0 auto;}
+    } 
